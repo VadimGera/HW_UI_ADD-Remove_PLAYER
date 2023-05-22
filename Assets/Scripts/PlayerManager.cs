@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    [SerializeField] public NickNamesUI nickNamesUI;
+    [SerializeField] private NickNamesUI nickNamesUI;
 
     public void AddPlayer()
     {
