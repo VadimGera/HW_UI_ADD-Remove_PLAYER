@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7367273342042226598
+--- !u!1 &4718512858937615147
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4837598944744596091}
-  - component: {fileID: 250968205136846086}
-  - component: {fileID: 7690114357260008661}
+  - component: {fileID: 5932527741656633038}
+  - component: {fileID: 4658568585470113137}
+  - component: {fileID: 8998335213556816792}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -18,16 +18,16 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &4837598944744596091
+--- !u!224 &5932527741656633038
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7367273342042226598}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.8823, y: 2.8823, z: 2.8823}
+  m_GameObject: {fileID: 4718512858937615147}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -9.827457}
+  m_LocalScale: {x: 3.1921, y: 3.1921, z: 3.1921}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -35,24 +35,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -133, y: 765}
+  m_AnchoredPosition: {x: -94.84601, y: 554.8009}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &250968205136846086
+--- !u!222 &4658568585470113137
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7367273342042226598}
+  m_GameObject: {fileID: 4718512858937615147}
   m_CullTransparentMesh: 1
---- !u!114 &7690114357260008661
+--- !u!114 &8998335213556816792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7367273342042226598}
+  m_GameObject: {fileID: 4718512858937615147}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}

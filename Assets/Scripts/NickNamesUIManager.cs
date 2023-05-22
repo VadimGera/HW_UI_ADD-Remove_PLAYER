@@ -27,10 +27,11 @@ public class NickNamesUIManager : MonoBehaviour
     {
         if (nicknames.ContainsKey(player))
         {
-            GameObject playerInstance = nicknames[player].gameObject;
-            Destroy(nicknames[player].gameObject);
+            TextMeshProUGUI nicknameText = nicknames[player];
+            Destroy(nicknameText.gameObject);
             nicknames.Remove(player);
-            Destroy(playerInstance);
+        
+            player.SetActive(false);
         }
     }
 
